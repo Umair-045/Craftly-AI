@@ -1,0 +1,260 @@
+═══════════════════════════════════════════════════════════════
+   MANUAL INSTALLATION GUIDE (If .bat files don't work)
+═══════════════════════════════════════════════════════════════
+
+Follow these steps EXACTLY:
+
+═══════════════════════════════════════════════════════════════
+STEP 1: CHECK NODE.JS
+═══════════════════════════════════════════════════════════════
+
+1. Press Windows Key + R
+2. Type: cmd
+3. Press Enter
+
+4. In the black window, type: node --version
+5. Press Enter
+
+If you see a version number (like v20.x.x):
+   ✅ Node.js is installed - Go to STEP 2
+
+If you see "not recognized" error:
+   ❌ Node.js NOT installed - Follow STEP 1B
+
+
+═══════════════════════════════════════════════════════════════
+STEP 1B: INSTALL NODE.JS (If needed)
+═══════════════════════════════════════════════════════════════
+
+1. Open browser
+2. Go to: https://nodejs.org
+3. Click the BIG GREEN button (LTS version)
+4. Run the downloaded file
+5. Click Next, Next, Next... until done
+6. RESTART YOUR COMPUTER
+7. Go back to STEP 1 to verify
+
+
+═══════════════════════════════════════════════════════════════
+STEP 2: NAVIGATE TO PROJECT FOLDER
+═══════════════════════════════════════════════════════════════
+
+In the Command Prompt (black window):
+
+1. Type: cd Desktop\craftly-ai-complete
+2. Press Enter
+
+You should see:
+C:\Users\YourName\Desktop\craftly-ai-complete>
+
+If you see "system cannot find the path":
+   - Make sure you extracted the ZIP to Desktop
+   - Check the folder name is exactly: craftly-ai-complete
+
+
+═══════════════════════════════════════════════════════════════
+STEP 3: INSTALL DEPENDENCIES
+═══════════════════════════════════════════════════════════════
+
+In the same Command Prompt window:
+
+1. Type: npm install
+2. Press Enter
+3. WAIT 2-5 minutes (don't close the window!)
+
+You'll see lots of text scrolling...
+
+When done, you should see:
+"added XXX packages"
+
+If you see errors about Python or build tools:
+   - Don't worry, the app will still work
+   - Just continue to STEP 4
+
+
+═══════════════════════════════════════════════════════════════
+STEP 4: START THE APP
+═══════════════════════════════════════════════════════════════
+
+In the same Command Prompt window:
+
+1. Type: npm start
+2. Press Enter
+3. Wait 10-30 seconds
+
+Your browser should automatically open to:
+http://localhost:3000
+
+✅ SUCCESS! The app is running!
+
+
+═══════════════════════════════════════════════════════════════
+STEP 5: NEXT TIME YOU WANT TO RUN
+═══════════════════════════════════════════════════════════════
+
+You DON'T need to install again!
+
+Just:
+1. Open Command Prompt
+2. Type: cd Desktop\craftly-ai-complete
+3. Type: npm start
+
+
+═══════════════════════════════════════════════════════════════
+ALTERNATIVE: USE VS CODE (Easier!)
+═══════════════════════════════════════════════════════════════
+
+If you have VS Code installed:
+
+1. Open VS Code
+2. Click: File → Open Folder
+3. Select: craftly-ai-complete folder
+4. Click: Terminal → New Terminal
+5. Type: npm install
+6. Wait for installation
+7. Type: npm start
+
+
+═══════════════════════════════════════════════════════════════
+COMMON ERRORS & SOLUTIONS
+═══════════════════════════════════════════════════════════════
+
+ERROR: "npm is not recognized"
+SOLUTION: 
+   - Node.js not installed
+   - Go back to STEP 1B
+   - After installing, RESTART computer
+
+ERROR: "ENOENT: no such file or directory"
+SOLUTION:
+   - You're in wrong folder
+   - Make sure you're in: Desktop\craftly-ai-complete
+   - Type: cd Desktop\craftly-ai-complete
+
+ERROR: "Port 3000 is already in use"
+SOLUTION:
+   - Another app is using port 3000
+   - Close all programs
+   - Restart computer
+   - Try again
+
+ERROR: "Cannot find module"
+SOLUTION:
+   - Dependencies not installed properly
+   - Delete node_modules folder
+   - Type: npm install (again)
+
+ERROR: Network/internet errors
+SOLUTION:
+   - Check your internet connection
+   - Try again in a few minutes
+   - If behind firewall, ask IT admin
+
+
+═══════════════════════════════════════════════════════════════
+VERIFICATION CHECKLIST
+═══════════════════════════════════════════════════════════════
+
+Before running npm install, make sure:
+
+✓ Node.js is installed (node --version works)
+✓ You're in the right folder (Desktop\craftly-ai-complete)
+✓ Internet is connected
+✓ You have at least 500MB free disk space
+✓ Antivirus isn't blocking npm
+
+
+═══════════════════════════════════════════════════════════════
+WHAT npm install DOES
+═══════════════════════════════════════════════════════════════
+
+It downloads and installs:
+- React framework
+- Lucide icons library
+- Development tools
+- All dependencies (200+ packages)
+
+Total download: ~150 MB
+Final size: ~200 MB
+
+
+═══════════════════════════════════════════════════════════════
+STOPPING THE APP
+═══════════════════════════════════════════════════════════════
+
+When you're done:
+1. Go to Command Prompt window
+2. Press: Ctrl + C
+3. Type: Y
+4. Press: Enter
+
+
+═══════════════════════════════════════════════════════════════
+STILL HAVING ISSUES?
+═══════════════════════════════════════════════════════════════
+
+If nothing works, try this:
+
+METHOD 1: Fresh Start
+1. Delete the craftly-ai-complete folder
+2. Extract the ZIP again
+3. Follow all steps from beginning
+
+METHOD 2: Use Different Terminal
+1. Install Git Bash from: https://git-scm.com
+2. Right-click in folder → Git Bash Here
+3. Type: npm install
+4. Type: npm start
+
+METHOD 3: Online Alternative
+1. Go to: https://stackblitz.com
+2. Upload the files
+3. Run online (no installation needed)
+
+
+═══════════════════════════════════════════════════════════════
+NEED HELP? CHECK THESE:
+═══════════════════════════════════════════════════════════════
+
+1. Make sure folder is on Desktop
+2. Make sure folder name has no spaces at start/end
+3. Close antivirus temporarily
+4. Run Command Prompt as Administrator
+5. Try different WiFi network
+
+
+═══════════════════════════════════════════════════════════════
+SCREENSHOT OF SUCCESS
+═══════════════════════════════════════════════════════════════
+
+After "npm install", you should see:
+
+```
+added 1500 packages, and audited 1501 packages in 2m
+
+150 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+```
+
+After "npm start", you should see:
+
+```
+Compiled successfully!
+
+You can now view craftly-ai in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.x.x:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+```
+
+
+═══════════════════════════════════════════════════════════════
+
+Still stuck? Copy the EXACT error message and search Google!
+
+═══════════════════════════════════════════════════════════════

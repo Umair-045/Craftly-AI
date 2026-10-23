@@ -1,0 +1,289 @@
+═══════════════════════════════════════════════════════════════
+   STEP-BY-STEP INSTALLATION (Follow This Exactly!)
+═══════════════════════════════════════════════════════════════
+
+
+🎬 PART 1: BEFORE YOU START
+═══════════════════════════════════════════════════════════════
+
+❓ DO YOU HAVE NODE.JS INSTALLED?
+
+HOW TO CHECK:
+1. Press: Windows Key + R
+2. Type: cmd
+3. Press: Enter
+4. Type: node -v
+5. Press: Enter
+
+✅ If you see "v20.x.x" or similar → You have it! Skip to PART 2
+❌ If you see "not recognized" → You DON'T have it! Continue below
+
+
+🎬 INSTALLING NODE.JS (If you don't have it)
+═══════════════════════════════════════════════════════════════
+
+1. Open browser (Chrome, Edge, Firefox)
+2. Go to: nodejs.org
+3. You'll see TWO green buttons
+4. Click the LEFT one that says "LTS" (Recommended)
+5. File will download (node-v20...msi)
+6. Run the downloaded file
+7. Click "Next" → "Next" → "Next" → "Install"
+8. Wait for installation
+9. Click "Finish"
+10. ⚠️ RESTART YOUR COMPUTER ⚠️
+
+
+🎬 PART 2: EXTRACT THE PROJECT
+═══════════════════════════════════════════════════════════════
+
+1. Find "craftly-ai-complete.zip" in Downloads
+2. Right-click on it
+3. Click "Extract All..."
+4. Change location to: Desktop
+5. Click "Extract"
+6. Wait for extraction
+7. You should now see folder on Desktop
+
+
+🎬 PART 3: OPEN COMMAND PROMPT
+═══════════════════════════════════════════════════════════════
+
+METHOD A: Using Keyboard
+1. Press: Windows Key + R
+2. Type: cmd
+3. Press: Enter
+
+METHOD B: Using Search
+1. Click Start Menu
+2. Type: cmd
+3. Click "Command Prompt"
+
+You'll see a black window open!
+
+
+🎬 PART 4: NAVIGATE TO PROJECT FOLDER
+═══════════════════════════════════════════════════════════════
+
+In the black Command Prompt window:
+
+1. Type exactly: cd Desktop\craftly-ai-complete
+2. Press: Enter
+
+⚠️ IMPORTANT: 
+- Type it EXACTLY as shown
+- No spaces before or after
+- Use backslash (\) not forward slash (/)
+
+You should now see:
+C:\Users\YourName\Desktop\craftly-ai-complete>
+
+
+🎬 PART 5: INSTALL DEPENDENCIES
+═══════════════════════════════════════════════════════════════
+
+Still in the black Command Prompt window:
+
+1. Type exactly: npm install
+2. Press: Enter
+3. ⏰ WAIT 2-5 MINUTES (don't touch anything!)
+
+What you'll see:
+- Lots of text scrolling
+- Progress bars
+- Package names flying by
+- This is NORMAL!
+
+When finished, you'll see:
+"added 1500 packages in 3m"
+
+✅ SUCCESS! Dependencies are installed!
+
+
+🎬 PART 6: START THE APP
+═══════════════════════════════════════════════════════════════
+
+Still in the same Command Prompt window:
+
+1. Type exactly: npm start
+2. Press: Enter
+3. ⏰ WAIT 10-30 seconds
+
+What you'll see:
+- "Starting development server..."
+- "Compiling..."
+- "Compiled successfully!"
+
+Then your browser will AUTOMATICALLY open to:
+http://localhost:3000
+
+🎉 CONGRATULATIONS! The app is running!
+
+
+🎬 PART 7: USING THE APP
+═══════════════════════════════════════════════════════════════
+
+You should see the Craftly AI welcome screen!
+
+1. Click "Start Creating"
+2. Upload a photo (plastic bottle, cardboard, etc.)
+3. Click "Detect Materials"
+4. Review materials
+5. Click "Continue"
+6. Choose preferences
+7. Click "Generate Ideas"
+8. See your craft suggestions!
+
+
+🎬 PART 8: STOPPING THE APP
+═══════════════════════════════════════════════════════════════
+
+When you're done:
+
+1. Go back to the Command Prompt window (black window)
+2. Press: Ctrl + C (at the same time)
+3. You'll see: "Terminate batch job (Y/N)?"
+4. Type: Y
+5. Press: Enter
+
+The app is now stopped.
+
+
+🎬 PART 9: RUNNING IT AGAIN TOMORROW
+═══════════════════════════════════════════════════════════════
+
+You DON'T need to install again!
+
+Just:
+1. Open Command Prompt
+2. Type: cd Desktop\craftly-ai-complete
+3. Press: Enter
+4. Type: npm start
+5. Press: Enter
+
+OR
+
+Just double-click: START-APP.bat
+
+
+═══════════════════════════════════════════════════════════════
+🆘 TROUBLESHOOTING COMMON ISSUES
+═══════════════════════════════════════════════════════════════
+
+
+PROBLEM: "npm is not recognized"
+═══════════════════════════════════════════════════════════════
+CAUSE: Node.js not installed
+FIX:
+1. Install Node.js (see PART 1)
+2. RESTART your computer
+3. Try again from PART 3
+
+
+PROBLEM: "cannot find path"
+═══════════════════════════════════════════════════════════════
+CAUSE: Wrong folder location
+FIX:
+1. Make sure folder is on Desktop
+2. Check spelling: craftly-ai-complete
+3. Try typing: dir (to see what's in current folder)
+4. Type: cd Desktop
+5. Type: cd craftly-ai-complete
+
+
+PROBLEM: "EACCES permission denied"
+═══════════════════════════════════════════════════════════════
+CAUSE: Permission issues
+FIX:
+1. Close Command Prompt
+2. Right-click on Command Prompt icon
+3. Click "Run as Administrator"
+4. Try again from PART 4
+
+
+PROBLEM: "Port 3000 already in use"
+═══════════════════════════════════════════════════════════════
+CAUSE: Another app using port 3000
+FIX:
+1. Close ALL programs
+2. Restart computer
+3. Try again
+
+OR
+
+Use different port:
+1. Type: set PORT=3001
+2. Type: npm start
+
+
+PROBLEM: Really slow download
+═══════════════════════════════════════════════════════════════
+CAUSE: Slow internet
+FIX:
+1. Be patient (it can take 5-10 minutes on slow internet)
+2. Make sure you're on good WiFi
+3. Try later when internet is faster
+
+
+PROBLEM: Computer freezes during install
+═══════════════════════════════════════════════════════════════
+CAUSE: Low RAM or slow computer
+FIX:
+1. Close all other programs first
+2. Try installing one more time
+3. Be patient - don't force close
+
+
+═══════════════════════════════════════════════════════════════
+📊 WHAT FILES ARE CREATED?
+═══════════════════════════════════════════════════════════════
+
+After npm install, you'll see:
+
+NEW FOLDER: node_modules/
+- Contains 1500+ packages
+- Size: ~200 MB
+- DON'T delete this!
+
+NEW FILE: package-lock.json
+- Locks dependency versions
+- Auto-generated
+- Don't edit manually
+
+
+═══════════════════════════════════════════════════════════════
+✅ VERIFICATION CHECKLIST
+═══════════════════════════════════════════════════════════════
+
+Before you start, make sure:
+
+□ Node.js is installed (check with: node -v)
+□ Folder is on Desktop
+□ Folder name is: craftly-ai-complete
+□ Internet is connected
+□ At least 500 MB free space on C: drive
+□ No antivirus blocking npm
+
+
+═══════════════════════════════════════════════════════════════
+🎯 QUICK REFERENCE
+═══════════════════════════════════════════════════════════════
+
+First time:
+cd Desktop\craftly-ai-complete
+npm install
+npm start
+
+Every other time:
+cd Desktop\craftly-ai-complete
+npm start
+
+Stop app:
+Ctrl + C → Y → Enter
+
+
+═══════════════════════════════════════════════════════════════
+
+STILL STUCK? Read MANUAL-INSTALL.txt for more detailed help!
+
+═══════════════════════════════════════════════════════════════

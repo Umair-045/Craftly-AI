@@ -1,0 +1,85 @@
+🚀 CRAFTLY AI - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+📦 FIRST TIME SETUP (Do this once):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+OPTION A: Automatic Installation (EASIEST)
+   1. Double-click "INSTALL.bat"
+   2. Wait for installation to complete
+   3. Press Y when asked to start the app
+   4. Done! ✅
+
+OPTION B: Manual Installation
+   1. Press Windows + R
+   2. Type: cmd
+   3. Press Enter
+   4. Type: cd Desktop\craftly-ai-complete
+   5. Type: npm install
+   6. Wait 2-5 minutes
+   7. Type: npm start
+   8. Done! ✅
+
+
+🎯 RUNNING THE APP (After first setup):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+   Method 1: Double-click "START-APP.bat"
+   Method 2: Open cmd → Type: npm start
+
+
+📱 USING THE APP:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+   1. Upload photo of materials
+   2. AI detects items
+   3. Confirm materials
+   4. Set preferences
+   5. Get craft ideas!
+
+
+🛑 STOPPING THE APP:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+   Go to Command Prompt → Press Ctrl + C → Type Y → Enter
+
+
+❓ COMMON ISSUES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+   "npm not recognized" → Install Node.js from nodejs.org
+   "Port in use" → Close other apps or restart computer
+   "Dependencies error" → Delete node_modules folder, run npm install again
+
+
+📂 PROJECT FILES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+   INSTALL.bat         → First-time setup
+   START-APP.bat       → Run the app
+   SETUP-GUIDE.txt     → Detailed instructions
+   README.md           → Complete documentation
+   src/App.jsx         → Main code (edit API key here)
+   package.json        → Dependencies
+
+
+🌐 DEPLOYMENT (Get live URL):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+   1. npm run build
+   2. Upload to Vercel/Netlify
+   3. Share your URL!
+
+
+💡 TIPS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+   ✅ Test with different materials before demo
+   ✅ Have backup screenshots ready
+   ✅ Practice the full flow
+   ✅ Check internet connection before presenting
+
+
+═══════════════════════════════════════════════════════════════
+Need more help? Read SETUP-GUIDE.txt or README.md
+═══════════════════════════════════════════════════════════════

@@ -1,0 +1,159 @@
+📁 CRAFTLY AI - FOLDER STRUCTURE
+═══════════════════════════════════════════════════════════════
+
+craftly-ai-complete/
+│
+├── 📄 INSTALL.bat              ← Double-click to install (FIRST TIME)
+├── 📄 START-APP.bat            ← Double-click to run the app
+├── 📄 QUICK-START.txt          ← Quick reference guide
+├── 📄 SETUP-GUIDE.txt          ← Detailed setup instructions
+├── 📄 README.md                ← Complete documentation
+├── 📄 package.json             ← Project dependencies
+├── 📄 .gitignore               ← Git ignore rules
+│
+├── 📂 public/                  ← Static files
+│   └── 📄 index.html           ← HTML template
+│
+├── 📂 src/                     ← Source code
+│   ├── 📄 App.jsx              ← Main app (EDIT API KEY HERE)
+│   ├── 📄 index.js             ← Entry point
+│   └── 📄 index.css            ← Global styles
+│
+└── 📂 node_modules/            ← Dependencies (auto-generated)
+
+
+═══════════════════════════════════════════════════════════════
+FILE DESCRIPTIONS
+═══════════════════════════════════════════════════════════════
+
+📄 INSTALL.bat
+   • Purpose: Automatic installation script
+   • Use: Double-click for first-time setup
+   • Does: Checks Node.js, installs dependencies
+   
+📄 START-APP.bat
+   • Purpose: Quick app launcher
+   • Use: Double-click to run the app
+   • Does: Runs "npm start" automatically
+
+📄 QUICK-START.txt
+   • Purpose: Quick reference
+   • Use: Fast lookup for common tasks
+   • Contains: Setup steps, troubleshooting
+
+📄 SETUP-GUIDE.txt
+   • Purpose: Detailed installation guide
+   • Use: Step-by-step instructions
+   • Contains: Full setup, troubleshooting, deployment
+
+📄 README.md
+   • Purpose: Complete documentation
+   • Use: Comprehensive project info
+   • Contains: Features, setup, usage, deployment
+
+📄 package.json
+   • Purpose: Project configuration
+   • Use: Defines dependencies and scripts
+   • Edit: Only if adding new packages
+
+📄 .gitignore
+   • Purpose: Git ignore rules
+   • Use: Prevents committing unnecessary files
+   • Edit: Only if using version control
+
+public/index.html
+   • Purpose: HTML template
+   • Use: Base HTML structure
+   • Edit: Change title, meta tags, favicons
+
+src/App.jsx
+   • Purpose: Main application code
+   • Use: All UI and logic
+   • Edit: Change API key, add features, customize
+
+src/index.js
+   • Purpose: React entry point
+   • Use: Renders the app
+   • Edit: Rarely needed
+
+src/index.css
+   • Purpose: Global CSS
+   • Use: Body styles, resets
+   • Edit: Global font, margins, etc.
+
+node_modules/
+   • Purpose: Installed packages
+   • Use: Automatically managed by npm
+   • Edit: NEVER manually edit
+
+
+═══════════════════════════════════════════════════════════════
+IMPORTANT FILES TO EDIT
+═══════════════════════════════════════════════════════════════
+
+✏️ TO CHANGE API KEY:
+   Edit: src/App.jsx
+   Search for: 'x-api-key'
+   Replace with your own key
+
+✏️ TO CUSTOMIZE COLORS:
+   Edit: src/App.jsx
+   Search for: #3CCFCF, #FF6F61, #FFD84D
+   Replace with your colors
+
+✏️ TO CHANGE APP NAME:
+   Edit: public/index.html
+   Change: <title> tag
+
+✏️ TO ADD NEW FEATURES:
+   Edit: src/App.jsx
+   Add components, functions, or screens
+
+
+═══════════════════════════════════════════════════════════════
+FILES GENERATED AFTER INSTALLATION
+═══════════════════════════════════════════════════════════════
+
+After running "npm install", these will appear:
+
+node_modules/          ← All dependencies (1000+ packages)
+package-lock.json      ← Dependency lock file
+
+After running "npm run build":
+
+build/                 ← Production-ready files
+   ├── index.html
+   ├── static/
+   │   ├── css/
+   │   └── js/
+
+
+═══════════════════════════════════════════════════════════════
+DO NOT DELETE
+═══════════════════════════════════════════════════════════════
+
+✋ package.json         ← Required for npm to work
+✋ public/index.html    ← Required for React
+✋ src/index.js         ← Required for React
+✋ src/App.jsx          ← Main application code
+
+
+═══════════════════════════════════════════════════════════════
+SAFE TO DELETE
+═══════════════════════════════════════════════════════════════
+
+✅ node_modules/        ← Can reinstall with "npm install"
+✅ build/               ← Can regenerate with "npm run build"
+✅ package-lock.json    ← Auto-generated
+
+
+═══════════════════════════════════════════════════════════════
+FOLDER SIZE REFERENCE
+═══════════════════════════════════════════════════════════════
+
+Before npm install:      ~50 KB
+After npm install:       ~200 MB (node_modules)
+After npm build:         ~5 MB (build folder)
+
+
+═══════════════════════════════════════════════════════════════
